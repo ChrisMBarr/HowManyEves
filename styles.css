@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:extralight&subset=latin);
+
+html,
+body{
+	font-family:'Yanone Kaffeesatz', arial, serif;
+	margin:0;
+	padding:0;
+}
+body{
+	padding:10px;
+}
+p{
+	margin:0;
+}
+
+#description{
+	font-size:70px;
+	margin-bottom: 0;
+}
+
+#eves{
+	font-size:50px;
+	line-height:40px;
+}
+.eve{
+	color:#da0000;
+}
+.eve:nth-child(odd){
+	color:#00da00;
+}
+
+#subtitle{
+	font-size:18px;
+	padding-top:25px;
+	text-align:center;
+}
+#credits{
+	font-size:16px;
+	text-align:right;
+	position: absolute;
+	right:10px;
+	bottom:10px;
+}
+
+@media only screen and (max-device-width: 480px){
+	#subtitle{
+		margin-bottom: 20px;
+	}
+
+	#credits{
+		background-color: #FFF;
+		right:3px;
+		bottom:3px;
+		position:fixed;
+		padding:3px;
+		border-radius:4px;
+		font-size: 18px;
+	}
+}
