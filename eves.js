@@ -65,4 +65,7 @@
 
 	//Start it!
 	_init();
+
+	//Run again every minute!
+	setInterval(_init, 60000);
 })();
